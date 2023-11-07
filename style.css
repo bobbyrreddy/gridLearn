@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    border: 1px solid lightcoral;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    row-gap: 100px;
+
+
+}
+
+.container > div{
+    border: 1px dotted lightgrey;
+}
